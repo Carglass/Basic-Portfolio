@@ -1,4 +1,11 @@
-h1
+header
 {
-    color:blue;
+    width: 100%;
+    background-color: aquamarine;
+    display:flex;
+}
+
+header nav ul
+{
+    display:flex;
 }
