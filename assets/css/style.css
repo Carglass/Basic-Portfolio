@@ -3,6 +3,7 @@ body
 {
     display: flex;
     justify-content: space-around;
+    background-color: bisque;
 }
 
 a
@@ -21,7 +22,7 @@ a
 header
 {
     width: 100%;
-    /* background-color: lightblue; */
+    background-color: lightblue;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -58,4 +59,24 @@ a
 {
     text-decoration: none;
     color: black;
+}
+
+/* Middle Content */
+
+.middle-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+section
+{
+    width: 650px;
+    background-color: greenyellow;
+}
+
+aside
+{
+    width: 270px;
+    background-color: brown;
 }
