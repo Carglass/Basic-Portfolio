@@ -1,11 +1,62 @@
+/*Generic Statements*/
+body
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.content
+{
+    width: 960px;
+    
+}
+
+/* Header */
+
 header
 {
     width: 100%;
-    background-color: blue;
+    /* background-color: lightblue; */
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+}
+
+header h1
+{
+    margin-left: 20px;
+    background-color: #cccccc;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+header nav
+{
+    width: 270px;
 }
 
 header nav ul
 {
     display:flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+header nav ul li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
 }
