@@ -1,3 +1,8 @@
+body
+{
+    margin:0;
+}
+
 .content
 {
     background-image: url("../images/circles-light.png");
@@ -73,6 +78,7 @@ li
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 30px;
+    align-content: flex-start;
 }
 
 .row2Content
@@ -80,7 +86,7 @@ li
     width: 960px;
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
 }
 
 .section
@@ -91,10 +97,55 @@ li
     padding-right: 30px;
 }
 
-aside
+.pageTitles
 {
-    width: 270px;
+    color: teal;
+}
+
+.horizontalBarSection
+{
+    height: 3px;
+    background-color: #cccccc;
+    border: 0;
+}
+
+.intro
+{
+    color: #333333;
+}
+
+.aside
+{
+    width: 210px;
     background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.horizontalBarAside
+{
+    height: 1px;
+    background-color: #cccccc;
+    border: 0;
+}
+
+.imgLink
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.displayBlock
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 }
 
 /* Footer */
