@@ -45,17 +45,16 @@ body
     width: 270px;
 }
 
-header nav ul
+.navMenu
 {
     display:flex;
     justify-content: space-between;
     -webkit-padding-start: 0px;
 }
 
-li
+.liNavMenu
 {
     list-style: none;
-    color: green;
     text-decoration: none;
 }
 
