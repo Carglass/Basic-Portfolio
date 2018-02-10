@@ -110,7 +110,12 @@ body
 
 .intro
 {
-    color: #333333;
+    color: #666666;
+}
+
+.subsectionTitle
+{
+    color: #666666;
 }
 
 .aside
