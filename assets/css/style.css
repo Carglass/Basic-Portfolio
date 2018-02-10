@@ -209,3 +209,13 @@ body
 {
     height: 150px;
 }
+
+::-webkit-input-placeholder
+{
+    color: #aaaaaa;
+}
+
+.font1em
+{
+    font-size: 1em;
+}
