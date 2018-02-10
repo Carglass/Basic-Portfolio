@@ -263,3 +263,13 @@ body
     text-align: center;
     vertical-align: middle;
 }
+
+.floatLeft
+{
+    float: left;
+    width: 30%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 8px;
+}
