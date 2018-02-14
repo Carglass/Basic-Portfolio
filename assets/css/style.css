@@ -71,6 +71,11 @@ body
     bottom: 0;
 }
 
+.fl-l
+{
+    float:left;
+}
+
 /* X-Axis */
 
 .w-100
@@ -185,6 +190,11 @@ body
     margin: auto;
 }
 
+.m-5px
+{
+    margin: 5px;
+}
+
 .mt-30px
 {
     margin-top: 30px;
@@ -208,6 +218,11 @@ body
 .mb-30px
 {
     margin-bottom: 30px;
+}
+
+.mr-20px
+{
+    margin-right: 20px;
 }
 
 /* Colors */
@@ -266,14 +281,19 @@ body
     font-size: 1em;
 }
 
-.fz-1_12em
+.fz-1_2em
 {
-    font-size: 1.12em;
+    font-size: 1.2em;
 }
 
-.fz-1_15em
+.fz-1_4em
 {
-    font-size: 1.15em;
+    font-size: 1.4em;
+}
+
+.fz-2em
+{
+    font-size: 2em;
 }
 
 /* Effects */
@@ -352,9 +372,6 @@ body
 .floatLeft
 {
     float: left;
-    width: 30%;
-    max-height: 250px;
-    object-fit: cover;
     margin-right: 20px;
     margin-top: 8px;
 }
